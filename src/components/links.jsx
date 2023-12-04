@@ -7,6 +7,7 @@ import Resources from "../pages/resources";
 import Login from "../pages/login";
 import SignUp from "../pages/signup";
 import Home from "../pages/home";
+import ForgotPassword from "../pages/forgotpassword";
 
 export default function Links () {
     return (
@@ -18,6 +19,7 @@ export default function Links () {
                 <Route path="/resources" element={<Resources/>}/>
                 <Route path="/login" element={<Login />}/>
                 <Route path="/signup" element={<SignUp />}/>
+                <Route path="/forgotpassword" element={<ForgotPassword />}/>
             </Routes>
         </>
     )

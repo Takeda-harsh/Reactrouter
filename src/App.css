@@ -105,6 +105,11 @@ nav {
   border-radius: 50px;
 }
 
+.nav-signup:hover {
+  cursor: pointer;
+  background-color: #78fbfbfa; 
+}
+
 
 .hero-section{
   width: 100%;
@@ -150,6 +155,11 @@ nav {
   border: none;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background-color: #78fbfbfa; 
+}
+
 .link-input {
   position: absolute;
   z-index: 2;
@@ -182,6 +192,11 @@ nav {
   border-radius: 5px;
   font-weight: 600;
   margin-left: 20px;
+}
+
+.shorten:hover {
+  cursor: pointer;
+  background-color: #78fbfbfa; 
 }
 
 .stats-section {
@@ -359,6 +374,10 @@ height: 700px;
   font-size: 14px;
 }
 
+.ptext {
+  width: 450px;
+}
+
 .login-header h1 {
   margin-bottom: 0;
 }
@@ -372,6 +391,11 @@ height: 700px;
   border-style: none;
   background-color: #2ACFCF;
   color: white;
+  margin-bottom: 30px;
+}
+
+.login-btn :hover {
+  background-color: #78fbfbfa; 
 }
 
 .account p {

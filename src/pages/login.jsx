@@ -6,7 +6,7 @@ export default function Login () {
     return (
         <>
            <div className="Login">
-            <div><div className="back-btn"><Link to='/Home'>Back</Link> </div></div>
+            <div><div className="back-btn"><Link to='/'>Back</Link> </div></div>
             <div className="login-details">
                 
                 <div className="login-header">
@@ -23,13 +23,13 @@ export default function Login () {
                     <input type="password"/>
                 </div>
 
-                <Link className="f-password">Forgot Password?</Link>
+                <Link to= '/forgotpassword' className="f-password">Forgot Password?</Link>
                 <p className="error-message"></p>
 
                 <button className="login-btn">Login</button>
 
                 <div className="account">
-                    <p>Don't have an account yet? <span>Sign Up</span></p>
+                    <p>Don't have an account yet? <Link to= '/signup'><span>Sign Up</span></Link></p>
                 </div>
             </div>
 

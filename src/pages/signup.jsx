@@ -6,7 +6,7 @@ export default function SignUp () {
     return (
         <>
            <div className="Login">
-            <div><div className="back-btn"><Link to='/Home'>Back</Link> </div></div>
+            <div><div className="back-btn"><Link to='/'>Back</Link> </div></div>
             <div className="login-details">
                 
                 <div className="login-header">
@@ -40,7 +40,7 @@ export default function SignUp () {
                 <button className="login-btn">Login</button>
 
                 <div className="account">
-                    <p>Don't have an account yet? <span>Sign Up</span></p>
+                    <p>Already have an account? <Link to= '/login'><span>Sign In</span></Link></p>
                 </div>
             </div>
 

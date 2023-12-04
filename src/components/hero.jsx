@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom"
 import '../App.css'
 
 export default function Hero () {
@@ -9,7 +10,7 @@ export default function Hero () {
             <div className="hero-text">
                 <h1>More than just shorter links</h1>
                 <p>Build your brand's recognition and get detailed insights on how your links are performing</p>
-                <button className="btn">Get Started</button>
+                <Link><button className="btn">Get Started</button></Link>
             </div>
             <div className="hero-image">
 
