@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import '../App.css'
 
-export default function Login () {
+export default function FPassword () {
     return (
         <>
            <div className="Login">
@@ -10,27 +10,20 @@ export default function Login () {
             <div className="login-details">
                 
                 <div className="login-header">
-                    <h1>Login</h1>
-                    <p>Get started with Shortly</p>
+                    <h1>Forgot Password</h1>
+                    <p>Enter the email address you used when you joined
+                    and we’ll send you instructions to reset your password</p>
                 </div>
                 <div className="user-input">
                     <label htmlFor="email" >Email</label> <br/>
                     <input type="email"/>
                 </div>
                 
-                <div className="user-input">
-                    <label htmlFor="password" >Password</label> <br/>
-                    <input type="password"/>
-                </div>
-
-                <Link className="f-password">Forgot Password?</Link>
                 <p className="error-message"></p>
+                <Link className="f-password">Back to sign</Link>
+                
+                <button className="login-btn">Send recovery code</button>
 
-                <button className="login-btn">Login</button>
-
-                <div className="account">
-                    <p>Don't have an account yet? <span>Sign Up</span></p>
-                </div>
             </div>
 
             <div className="login-image">

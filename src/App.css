@@ -346,9 +346,17 @@ footer {
   
 }
 .login-image {
-  background-color: black;
+  background-image: url(../src/assets/images/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 width: 30%;
 height: 700px;
+}
+
+.f-password{
+  padding-right: 380px;
+  color: red;
+  font-size: 14px;
 }
 
 .login-header h1 {
